@@ -1,0 +1,48 @@
+html, body, p, div{
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    height: 100%;
+}
+#cabecera{
+    font-size: 45px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 20px 20px 20px;
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+.contenido{
+    background-color: chartreuse;
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 20px 20px 20px;
+    height: 100%;
+    min-height: 100%;
+    width: 80%;
+    box-sizing:border-box;
+    display: inline-block;
+}
+.lateral{
+    margin: 0px;
+    display: inline-block;
+    float: right;
+    padding: 20px 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: deepskyblue;
+    height: 100%;
+    min-height: 100%;
+    width: 20%;
+    box-sizing:border-box;
+    
+}
+button{
+    margin: 10px;
+    height: 30px;
+    width: 90%;
+}
